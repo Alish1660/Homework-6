@@ -16,17 +16,17 @@
 // getKeys_and_Values(obj);
 ////////////////////////////////////////////////////////////////////////////////////////////////
 // 2- misol //////////////////////////////////////////////////////////////////////////////////
-// const check_number = (number) => {
-//   let arr = [1, 2, 3, 4, 5, 6, 7, 8];
-//   let num = 6;
-//   if (arr.includes(num)) {
-//     console.log(`arrayda berilgan sonlar ichida ${num} mavjud`);
-//   } else {
-//     console.log(` arrayda berilgan sonlar ichida ${num}
-//     mavjud emas `);
-//   }
-// };
-// check_number();
+let num = 4;
+const check_number = (num) => {
+  let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+  if (arr.includes(num)) {
+    console.log(`arrayda berilgan sonlar ichida ${num} mavjud`);
+  } else {
+    console.log(` arrayda berilgan sonlar ichida ${num}
+    mavjud emas `);
+  }
+};
+check_number(num);
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 // 3 - misol///////////////////////////////////////////////////////////////////////////////////////
 // const check_words=(string)=>{
